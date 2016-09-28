@@ -1,0 +1,38 @@
+@charset "UTF-8";
+html, body, div {
+  margin: 0;
+  padding: 0; }
+
+.wrap {
+  /* 媒体查询 */ }
+  .wrap .box {
+    float: left;
+    padding: 20px;
+    box-sizing: border-box; }
+    .wrap .box .items {
+      height: 50px;
+      border: 1px #999 solid;
+      background: #eee; }
+  .wrap .col-sm-6 {
+    width: 50%; }
+  .wrap .col-sm-12 {
+    width: 100%; }
+  .wrap .col-sm-3 {
+    width: 25%; }
+  .wrap .col-sm-2 {
+    width: 16.66%; }
+  .wrap .col-sm-8 {
+    width: 66.66%; }
+  @media screen and (min-width: 768px) {
+    .wrap .col-md-4 {
+      width: 33.33%; }
+    .wrap .col-md-3 {
+      width: 25%; }
+    .wrap .col-md-6 {
+      width: 50%; }
+    .wrap .col-md-1 {
+      width: 8.33%; }
+    .wrap .col-md-2 {
+      width: 16.66%; } }
+
+/*# sourceMappingURL=grid.css.map */
